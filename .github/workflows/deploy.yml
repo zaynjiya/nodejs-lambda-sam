@@ -75,6 +75,7 @@ jobs:
             --parameter-overrides Stage=dev \
             --capabilities CAPABILITY_IAM \
             --region ${{ env.AWS_REGION }} \
+            --resolve-s3 \
             --no-confirm-changeset \
             --no-fail-on-empty-changeset
 
@@ -117,5 +118,6 @@ jobs:
             --parameter-overrides Stage=prod \
             --capabilities CAPABILITY_IAM \
             --region ${{ env.AWS_REGION }} \
+            --resolve-s3 \
             --no-confirm-changeset \
             --no-fail-on-empty-changeset

@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-lambda-sam",
+  "version": "1.0.0",
+  "description": "Node.js Lambda function deployed with AWS SAM",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "local": "sam local start-api"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1490.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0"
+  },
+  "keywords": [
+    "lambda",
+    "nodejs",
+    "aws",
+    "sam",
+    "serverless"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
